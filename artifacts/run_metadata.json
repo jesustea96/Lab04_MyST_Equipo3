@@ -1,0 +1,49 @@
+{
+  "fecha": "2026-11-25 19:55",
+  "python": "3.11.9",
+  "stable_baselines3": "2.9.2",
+  "gymnasium": "1.4.0",
+  "torch": "2.15.0+cpu",
+  "numpy": "2.4.6",
+  "pandas": "3.1.1",
+  "semillas": [
+    42,
+    43,
+    44
+  ],
+  "pasos": 60000,
+  "rejilla": [
+    {
+      "horizonte": 12,
+      "modo_reward": "riesgo",
+      "gamma": 0.0
+    },
+    {
+      "horizonte": 12,
+      "modo_reward": "pnl",
+      "gamma": 0.0
+    },
+    {
+      "horizonte": 24,
+      "modo_reward": "riesgo",
+      "gamma": 0.0
+    },
+    {
+      "horizonte": 24,
+      "modo_reward": "pnl",
+      "gamma": 0.0
+    },
+    {
+      "horizonte": 24,
+      "modo_reward": "riesgo",
+      "gamma": 0.9
+    }
+  ],
+  "fijos": {
+    "k_stop": 2.0,
+    "k_tp": 3.0,
+    "episodio": 720
+  },
+  "costo_por_lado": 0.00125,
+  "minutos": 61.5
+}
