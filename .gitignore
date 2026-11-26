@@ -5,3 +5,4 @@ run_full.log
 ref/
 .pytest_cache/
 docs/__pycache__/
+run_full.err
