@@ -102,7 +102,9 @@ def main():
         d.save(ruta)
         print(nombre, a_pdf(ruta), "paginas")
         os.remove(ruta)
-    with PdfPages(os.path.join(DOCS, "presentacion.pdf")) as pdf:
+    if "--presentacion" not in sys.argv:  # la presentacion la arma el equipo por separado
+        return
+    with PdfPages(os.path.join(DOCS, "presentacion_borrador.pdf")) as pdf:
         n = 0
         for lam in textos.presentacion(datos, ART):
             fig = plt.figure(figsize=(13.33, 7.5))

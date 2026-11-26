@@ -102,7 +102,7 @@ def reporte(d, art):
 
     return [
         ("h1", "Lab 04: agente de RL para BTCUSDT horario"),
-        ("p", "Equipo 3: Adrián Ballesteros, Erik del Castillo y Jesús Emmanuel Flores Cortés. Microestructura y Sistemas de "
+        ("p", "Equipo 3: Adrián Marcelo Ballesteros, Erik del Castillo y Jesús Emmanuel Flores Cortés. Microestructura y Sistemas de "
               "Trading, ITESO, otoño 2026. Repositorio Lab04_MyST_Equipo3; reproducción con `python main.py`."),
         ("h1", "1. Resumen ejecutivo"),
         ("p", f"Formulamos la operación de BTCUSDT como un problema de decisión secuencial semi-Markov y entrenamos PPO "
@@ -383,7 +383,7 @@ def presentacion(d, art):
     A = lambda n: os.path.join(art, n)
     return [
         dict(titulo="Lab 04: agente de RL para BTCUSDT", texto=[
-            "Equipo 3: Adrián Ballesteros, Erik del Castillo, Jesús Flores",
+            "Equipo 3: Adrián Marcelo Ballesteros, Erik del Castillo, Jesús Flores",
             "Microestructura y Sistemas de Trading, ITESO, otoño 2026"]),
         dict(titulo="Resumen: no hay ventaja después de costos", img=d["fig_resumen"], texto=[
             f"Agente: {pct(_v(d, 'agente', 'retorno_total'))} ± {pct(_v(d, 'agente', 'retorno_total', 'std'))}",

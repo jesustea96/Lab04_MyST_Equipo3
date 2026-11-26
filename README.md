@@ -2,7 +2,7 @@
 
 Microestructura y Sistemas de Trading, ITESO, otoño 2026.
 
-**Integrantes:** Adrián Ballesteros, Erik del Castillo, Jesús Emmanuel Flores Cortés
+**Integrantes:** Adrián Marcelo Ballesteros, Erik del Castillo, Jesús Emmanuel Flores Cortés
 
 **Nivel de alcance:** [COMPLETAR con el nivel acordado en clase]
 
@@ -43,7 +43,7 @@ code/eda.py        EDA del entrenamiento y análisis de variables por fold
 code/plots.py      gráficas
 artifacts/         artefactos exigidos (sección 3.8) y extras (sensibilidad, ablación, semillas, líneas base)
 tests/             pruebas con pytest
-docs/              reporte.pdf, walkthrough.pdf, presentacion.pdf
+docs/              reporte.pdf, walkthrough.pdf (generados con docs/generar_docs.py) y presentacion.pdf
 ```
 
 ## Uso de IA
